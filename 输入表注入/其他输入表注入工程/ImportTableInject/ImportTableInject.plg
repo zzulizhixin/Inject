@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImportTableInject - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\XIANGL~1.XS\AppData\Local\Temp\RSP46F9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ImportTableInject.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Taobao\Task\MyOwnBook\第2章_注入\code\ImportTableInject\ImportTableInjectDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\XIANGL~1.XS\AppData\Local\Temp\RSP46F9.tmp" 
+Creating temporary file "C:\Users\XIANGL~1.XS\AppData\Local\Temp\RSP4709.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ImportTableInject.pdb" /debug /machine:I386 /out:"Debug/ImportTableInject.exe" /pdbtype:sept 
+".\Debug\ImportTableInject.obj"
+".\Debug\ImportTableInjectDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ImportTableInject.res"
+]
+Creating command line "link.exe @C:\Users\XIANGL~1.XS\AppData\Local\Temp\RSP4709.tmp"
+<h3>Output Window</h3>
+Compiling...
+ImportTableInjectDlg.cpp
+D:\Taobao\Task\MyOwnBook\第2章_注入\code\ImportTableInject\ImportTableInjectDlg.cpp(289) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+D:\Taobao\Task\MyOwnBook\第2章_注入\code\ImportTableInject\ImportTableInjectDlg.cpp(187) : warning C4101: 'dwNewSecFileSize' : unreferenced local variable
+D:\Taobao\Task\MyOwnBook\第2章_注入\code\ImportTableInject\ImportTableInjectDlg.cpp(187) : warning C4101: 'dwNewSecMemSize' : unreferenced local variable
+D:\Taobao\Task\MyOwnBook\第2章_注入\code\ImportTableInject\ImportTableInjectDlg.cpp(362) : warning C4101: 'dwNewSecFileSize' : unreferenced local variable
+D:\Taobao\Task\MyOwnBook\第2章_注入\code\ImportTableInject\ImportTableInjectDlg.cpp(362) : warning C4101: 'dwNewSecMemSize' : unreferenced local variable
+D:\Taobao\Task\MyOwnBook\第2章_注入\code\ImportTableInject\ImportTableInjectDlg.cpp(521) : warning C4101: 'e' : unreferenced local variable
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/ImportTableInject.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\ImportTableInject.sbr" ".\Debug\ImportTableInjectDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ImportTableInject.exe - 0 error(s), 6 warning(s)
+</pre>
+</body>
+</html>

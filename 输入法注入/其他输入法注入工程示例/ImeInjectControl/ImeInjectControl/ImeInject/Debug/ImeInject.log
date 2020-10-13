@@ -1,0 +1,35 @@
+﻿生成启动时间为 2019/10/28 17:11:18。
+     1>项目“J:\游戏外挂攻防书的附带代码\第二章\ImeInjectControl\ImeInject\ImeInject.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ImeInjectControl.cpp pipe.cpp
+         pipe.cpp
+         ImeInjectControl.cpp
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imeinject\imeinjectcontrol.cpp(21): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : 参见“scanf”的声明
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imeinject\imeinjectcontrol.cpp(23): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(249) : 参见“stricmp”的声明
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imeinject\imeinjectcontrol.cpp(26): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : 参见“scanf”的声明
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imeinject\imeinjectcontrol.cpp(30): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : 参见“scanf”的声明
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imeinject\imeinjectcontrol.cpp(56): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(249) : 参见“stricmp”的声明
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imeinject\imeinjectcontrol.cpp(66): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : 参见“scanf”的声明
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imeinject\imeinjectcontrol.cpp(67): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(249) : 参见“stricmp”的声明
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imeinject\imeinjectcontrol.cpp(76): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(249) : 参见“stricmp”的声明
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imeinject\imeinjectcontrol.cpp(81): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : 参见“strcpy”的声明
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\ImeInject.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib imm32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\ImeInject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\ImeInject.lib" /MACHINE:X86 /SAFESEH .\Debug\ImeInjectControl.obj
+         .\Debug\pipe.obj
+     1>ImeInjectControl.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         ImeInject.vcxproj -> J:\游戏外挂攻防书的附带代码\第二章\ImeInjectControl\ImeInject\.\Debug\ImeInject.exe
+     1>已完成生成项目“J:\游戏外挂攻防书的附带代码\第二章\ImeInjectControl\ImeInject\ImeInject.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.05

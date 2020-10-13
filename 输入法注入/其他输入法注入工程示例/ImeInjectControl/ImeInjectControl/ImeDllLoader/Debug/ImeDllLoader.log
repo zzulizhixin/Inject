@@ -1,0 +1,35 @@
+﻿生成启动时间为 2019/10/28 17:35:24。
+     1>项目“J:\游戏外挂攻防书的附带代码\第二章\ImeInjectControl\ImeDllLoader\ImeDllLoader.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D IMEDLLLOADER_EXPORTS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DllMain.cpp pipe.cpp
+         pipe.cpp
+         DllMain.cpp
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(238): error C2065: “IME_PROP_KBD_CHAR_FIRST”: 未声明的标识符
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(239): error C2065: “IME_PROP_IGNORE_UPKEYS”: 未声明的标识符
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(240): error C2065: “IME_PROP_END_UNLOAD”: 未声明的标识符
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(350): error C2065: “NI_CONTEXTUPDATED”: 未声明的标识符
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(350): error C2051: case 表达式不是常量
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(353): error C2065: “IMC_SETCONVERSIONMODE”: 未声明的标识符
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(353): error C2051: case 表达式不是常量
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(355): error C2065: “IMC_SETSENTENCEMODE”: 未声明的标识符
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(355): error C2051: case 表达式不是常量
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(363): error C2065: “IMC_SETOPENSTATUS”: 未声明的标识符
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(363): error C2051: case 表达式不是常量
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(486): error C2065: “LPINPUTCONTEXT”: 未声明的标识符
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(486): error C2146: 语法错误: 缺少“;”(在标识符“lpIMC”的前面)
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(486): error C2065: “lpIMC”: 未声明的标识符
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(486): error C3861: “ImmLockIMC”: 找不到标识符
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(487): error C2065: “lpIMC”: 未声明的标识符
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(490): error C2065: “lpIMC”: 未声明的标识符
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(490): error C2227: “->hWnd”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(492): error C2065: “lpIMC”: 未声明的标识符
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(492): error C2227: “->hWnd”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>j:\游戏外挂攻防书的附带代码\第二章\imeinjectcontrol\imedllloader\dllmain.cpp(496): error C3861: “ImmUnlockIMC”: 找不到标识符
+         正在生成代码...
+     1>已完成生成项目“J:\游戏外挂攻防书的附带代码\第二章\ImeInjectControl\ImeDllLoader\ImeDllLoader.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.09

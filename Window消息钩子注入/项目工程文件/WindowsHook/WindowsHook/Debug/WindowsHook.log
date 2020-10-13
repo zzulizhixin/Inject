@@ -1,0 +1,16 @@
+﻿生成启动时间为 2019/10/29 16:09:19。
+     1>项目“J:\Project\WindowsHook\WindowsHook\WindowsHook.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\WindowsHook.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt WindowsHookDlg.cpp
+         WindowsHookDlg.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Project\WindowsHook\Debug\WindowsHook.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"J:\Project\WindowsHook\Debug\WindowsHook.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Project\WindowsHook\Debug\WindowsHook.lib" /MACHINE:X86 Debug\WindowsHook.res
+         Debug\stdafx.obj
+         Debug\WindowsHook.obj
+         Debug\WindowsHookDlg.obj
+         WindowsHook.vcxproj -> J:\Project\WindowsHook\Debug\WindowsHook.exe
+     1>已完成生成项目“J:\Project\WindowsHook\WindowsHook\WindowsHook.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.55

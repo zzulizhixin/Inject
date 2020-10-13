@@ -1,0 +1,5 @@
+1.打开WindowsHook.exe
+2.打开notepad++
+3.点击WindowsHook.exe的按钮Windows消息钩子注入
+4.打开notepad++使用键盘输入，就可观察到弹出的DLL中的窗口
+5.点击删除钩子按钮退出

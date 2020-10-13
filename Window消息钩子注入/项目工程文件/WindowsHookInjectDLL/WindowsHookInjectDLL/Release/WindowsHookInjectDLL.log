@@ -1,0 +1,18 @@
+﻿生成启动时间为 2019/10/29 16:16:41。
+     1>项目“J:\Project\WindowsHookInjectDLL\WindowsHookInjectDLL\WindowsHookInjectDLL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D WINDOWSHOOKINJECTDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Project\WindowsHookInjectDLL\Release\WindowsHookInjectDLL.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\Project\WindowsHookInjectDLL\Release\WindowsHookInjectDLL.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Project\WindowsHookInjectDLL\Release\WindowsHookInjectDLL.lib" /MACHINE:X86 /SAFESEH /DLL Release\dllmain.obj
+         Release\stdafx.obj
+         Release\WindowsHookInjectDLL.obj
+            正在创建库 J:\Project\WindowsHookInjectDLL\Release\WindowsHookInjectDLL.lib 和对象 J:\Project\WindowsHookInjectDLL\Release\WindowsHookInjectDLL.exp
+         正在生成代码
+         已完成代码的生成
+         WindowsHookInjectDLL.vcxproj -> J:\Project\WindowsHookInjectDLL\Release\WindowsHookInjectDLL.dll
+     1>已完成生成项目“J:\Project\WindowsHookInjectDLL\WindowsHookInjectDLL\WindowsHookInjectDLL.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.24

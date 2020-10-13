@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RemoteThreadInject - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\XIANGL~1.XS\AppData\Local\Temp\RSP739E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/RemoteThreadInject.pdb" /machine:I386 /out:"Release/RemoteThreadInject.exe" 
+".\Release\DbgInfo.obj"
+".\Release\ProcessMgr.obj"
+".\Release\RemoteThreadInject.obj"
+]
+Creating command line "link.exe @C:\Users\XIANGL~1.XS\AppData\Local\Temp\RSP739E.tmp"
+<h3>Output Window</h3>
+Linking...
+LIBC.lib(convrtcp.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+LIBC.lib(output.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+LIBC.lib(input.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+LIBC.lib(write.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+LIBC.lib(mbctype.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Release/RemoteThreadInject.exe : fatal error LNK1120: 1 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+RemoteThreadInject.exe - 6 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

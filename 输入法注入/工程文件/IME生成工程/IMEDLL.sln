@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IMEDLL", "IMEDLL\IMEDLL.vcxproj", "{849E9CE6-6D09-40D8-884B-844ECA197C8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{849E9CE6-6D09-40D8-884B-844ECA197C8B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{849E9CE6-6D09-40D8-884B-844ECA197C8B}.Debug|Win32.Build.0 = Debug|Win32
+		{849E9CE6-6D09-40D8-884B-844ECA197C8B}.Release|Win32.ActiveCfg = Release|Win32
+		{849E9CE6-6D09-40D8-884B-844ECA197C8B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
